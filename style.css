@@ -207,7 +207,7 @@ nav {
 }
 
 .payment {
-    width: 500px;
+    width: 567px;
     height: 542px;
     background-color: white;
     position: absolute;
@@ -274,6 +274,11 @@ nav {
     background-color: #369e62;
     color: white;
     border: none;
+}
+
+.payButton:hover{
+    background-color: white;
+    color: #369e62;
 }
 
 .close {
@@ -454,6 +459,9 @@ footer {
 }
 
 @media screen and (max-width:480px) {
+    body{
+        flex: block;
+    }
     nav {
         padding: 20px;
     }
@@ -510,6 +518,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 220vw;
     }
 
     .productImg {
